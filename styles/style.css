@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial;
+    font-size: 16px;
+    background-color: #333;
+    color: #eee;
+    height: 100vh;
+    overflow: hidden;
+}
+.title {
+    text-align: center;
+}
+.wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Main styles ====================================================== */
+
+.field {
+    width: 500px;
+    height: 500px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ccc;
+}
+.excel {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+.snakeBody {
+    background-color: #333;
+    border-radius: 20px;
+}
+
+.head {
+    background-color: rgb(26, 26, 26);
+    border-radius: 20px;
+}
+
+.food {
+    background-color: rgb(150, 63, 63);
+    border-radius: 50%;
+}
+
+.score {
+    display: block;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
